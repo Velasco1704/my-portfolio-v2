@@ -1,5 +1,5 @@
 import { BsGithub } from "react-icons/bs";
-import { BsCodeSlash } from "react-icons/bs";
+import { BsLink } from "react-icons/bs";
 import movie from "@assets/movie.png";
 import store from "@assets/store.png";
 import blog from "@assets/blog.png";
@@ -20,14 +20,14 @@ export const Works: React.FC = () => {
               target="_blank"
               href="https://my-app-movies-dv.netlify.app"
             >
-              <BsGithub />
+              <BsLink />
             </a>
             <a
               className="works__a"
               target="_blank"
               href="https://github.com/Velasco1704/tmdb-ts-app"
             >
-              <BsCodeSlash />
+              <BsGithub />
             </a>
           </div>
         </div>
@@ -39,14 +39,14 @@ export const Works: React.FC = () => {
               target="_blank"
               href="https://mi-store-online.netlify.app"
             >
-              <BsGithub />
+              <BsLink />
             </a>
             <a
               className="works__a"
               target="_blank"
               href="https://github.com/Velasco1704/ecommerce-ts"
             >
-              <BsCodeSlash />
+              <BsGithub />
             </a>
           </div>
         </div>
@@ -58,14 +58,14 @@ export const Works: React.FC = () => {
               target="_blank"
               href="https://mi-blog-dv.netlify.app"
             >
-              <BsGithub />
+              <BsLink />
             </a>
             <a
               className="works__a"
               target="_blank"
               href="https://github.com/Velasco1704/-mi-blog-firebase-redux-ts-"
             >
-              <BsCodeSlash />
+              <BsGithub />
             </a>
           </div>
         </div>
