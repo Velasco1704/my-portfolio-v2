@@ -1,0 +1,57 @@
+@use "./reset";
+
+.home__container {
+  background-image: url("../assets/background.jpg");
+  width: 100%;
+  height: 100dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .home__div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .home__h1 {
+      text-align: center;
+      font-size: 5em;
+
+      .home__span {
+        color: var(--orange);
+      }
+    }
+
+    .home__container__typeAnimation {
+      font-size: 1.5em;
+      margin-bottom: 4rem;
+    }
+
+    .home__cv {
+      cursor: pointer;
+      font-size: 1.5em;
+      border-radius: 50%;
+      border: 0.2rem solid transparent;
+      color: var(--black);
+      background: var(--white);
+      padding: 0.8rem;
+      transition: 0.2s;
+
+      &:hover {
+        transition: 0.2s;
+        border-color: var(--orange);
+        color: var(--orange);
+      }
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .home__container {
+    .home__div {
+      .home__h1 {
+        font-size: 6em;
+      }
+    }
+  }
+}

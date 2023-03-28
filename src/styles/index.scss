@@ -1,0 +1,12 @@
+@use "./reset";
+
+body {
+  &::-webkit-scrollbar {
+    width: .2rem;
+    background: var(--black);
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: var(--orange);
+  }
+}

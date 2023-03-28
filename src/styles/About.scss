@@ -1,0 +1,177 @@
+@use "./reset";
+
+.about__container {
+  width: 100%;
+  height: 100dvh;
+  padding: 0.6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+
+  .about__info {
+    text-align: center;
+
+    .about__h1 {
+      font-size: 3em;
+
+      .about__span {
+        color: var(--orange);
+      }
+    }
+  }
+
+  .about__skills {
+    background: var(--white);
+    color: var(--black);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    border: .2rem solid transparent;
+    transition: .2s;
+
+    &:hover {
+      border-color: var(--orange);
+      transition: .2s;
+    }
+
+    .about__skill {
+      font-size: 3rem;
+    }
+
+    .skill-html {
+      transition: 0.2s;
+
+      &:hover {
+        transform: scale(1.1);
+        transition: 0.2s;
+        color: var(--html-color);
+      }
+    }
+
+    .skill-css {
+      transition: 0.2s;
+
+      &:hover {
+        transform: scale(1.1);
+        transition: 0.2s;
+        color: var(--css-color);
+      }
+    }
+
+    .skill-js {
+      transition: 0.2s;
+
+      &:hover {
+        transform: scale(1.1);
+        transition: 0.2s;
+        color: var(--js-color);
+      }
+    }
+
+    .skill-ts {
+      transition: 0.2s;
+
+      &:hover {
+        transform: scale(1.1);
+        transition: 0.2s;
+        color: var(--ts-color);
+      }
+    }
+
+    .skill-nodejs {
+      transition: 0.2s;
+
+      &:hover {
+        transform: scale(1.1);
+        transition: 0.2s;
+        color: var(--nodejs-color);
+      }
+    }
+
+    .skill-react {
+      transition: 0.2s;
+
+      &:hover {
+        transform: scale(1.1);
+        transition: 0.2s;
+        color: var(--react-color);
+      }
+    }
+
+    .skill-git {
+      transition: 0.2s;
+
+      &:hover {
+        transform: scale(1.1);
+        transition: 0.2s;
+        color: var(--git-color);
+      }
+    }
+
+    .skill-tailwindcss {
+      transition: 0.2s;
+
+      &:hover {
+        transform: scale(1.1);
+        transition: 0.2s;
+        color: var(--tailwindcss-color);
+      }
+    }
+
+    .skill-scss {
+      transition: 0.2s;
+
+      &:hover {
+        transform: scale(1.1);
+        transition: 0.2s;
+        color: var(--scss-color);
+      }
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .about__container {
+    flex-direction: row;
+    padding: 0 6rem;
+
+    .about__info {
+      width: 100%;
+    }
+
+    .about__skills {
+      .about__skill {
+        font-size: 3rem;
+      }
+    }
+  }
+}
+
+@media (min-width: 1440px) {
+  .about__container {
+    flex-direction: row;
+
+    .about__info {
+      width: 100%;
+
+      .about__h1 {
+        font-size: 5em;
+      }
+
+      .about__p {
+        font-size: 1.3em;
+      }
+    }
+
+    .about__skills {
+      .about__skill {
+        font-size: 5rem;
+      }
+    }
+  }
+}
