@@ -13,7 +13,7 @@ export const About: React.FC = () => {
     <section className="about__container" id="about">
       <div className="about__info">
         <h1 className="about__h1">
-          About <span className="about__span">ME!</span>
+          About <span className="about__span">Me!</span>
         </h1>
         <p className="about__p">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
