@@ -3,6 +3,7 @@ import { BsLink } from "react-icons/bs";
 import movie from "@assets/movie.png";
 import store from "@assets/store.png";
 import blog from "@assets/blog.png";
+import gym from "@assets/gym.png";
 import "@styles/Works.scss";
 
 export const Works: React.FC = () => {
@@ -64,6 +65,25 @@ export const Works: React.FC = () => {
               className="works__a"
               target="_blank"
               href="https://github.com/Velasco1704/-mi-blog-firebase-redux-ts-"
+            >
+              <BsGithub />
+            </a>
+          </div>
+        </div>
+        <div className="works__project">
+          <img className="works__img" src={gym} alt="gym" />
+          <div className="works__container__link">
+            <a
+              className="works__a"
+              target="_blank"
+              href="https://gym-app-chi-blond.vercel.app/"
+            >
+              <BsLink />
+            </a>
+            <a
+              className="works__a"
+              target="_blank"
+              href="https://github.com/Velasco1704/gym-app"
             >
               <BsGithub />
             </a>
